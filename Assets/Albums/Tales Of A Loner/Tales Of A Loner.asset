@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fbe3a8cddbf87b46aac7980fe245270, type: 3}
+  m_Name: Tales Of A Loner
+  m_EditorClassIdentifier: 
+  AlbumName: Tales Of A Loner
+  Artist: Juice WRLD
+  AlbumCover: {fileID: 21300000, guid: e849e3e07db5a394f9dd0b77923f5650, type: 3}
+  songs:
+  - {fileID: 11400000, guid: 662f0a0f1fb570145b43f76468b7f791, type: 2}
+  - {fileID: 11400000, guid: c29184c632177dd4aab0b54161015097, type: 2}
+  - {fileID: 11400000, guid: b987d535b1ce5e94aa7d903f0ba7740d, type: 2}
+  - {fileID: 11400000, guid: ee1b3b7582882cf4e95a57e840d8ab68, type: 2}
+  - {fileID: 11400000, guid: 974d0acfa6b14bc42b366b74e53e6bb7, type: 2}
+  - {fileID: 11400000, guid: 41318e17812e7754b868ca826e10f91f, type: 2}
+  - {fileID: 11400000, guid: f3d83caddb18b894f917e1d227683727, type: 2}
+  - {fileID: 11400000, guid: d0b7e6eda4e182646b25b08b4da9a6e7, type: 2}
+  - {fileID: 11400000, guid: 530c8e529ef7ed14b834d587675a235f, type: 2}
+  - {fileID: 11400000, guid: d3ce9ca4ec4565644a950ff0a884bfbd, type: 2}
+  - {fileID: 11400000, guid: 7642bfa58bd58f74792c77a8edce335e, type: 2}
+  - {fileID: 11400000, guid: 89ffee9520da37e4189a458b72448470, type: 2}
+  - {fileID: 11400000, guid: adbd6854ba1180c4fba791ed4d5a23fd, type: 2}
+  tags: []

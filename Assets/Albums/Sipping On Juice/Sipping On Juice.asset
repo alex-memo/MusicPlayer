@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fbe3a8cddbf87b46aac7980fe245270, type: 3}
+  m_Name: Sipping On Juice
+  m_EditorClassIdentifier: 
+  AlbumName: Sipping On Juice
+  Artist: Juice WRLD
+  AlbumCover: {fileID: 21300000, guid: d901fe901a594994bb71b7111f1bfa89, type: 3}
+  songs:
+  - {fileID: 11400000, guid: 2ddaf42ca3ce6804180fb273563c69cb, type: 2}
+  - {fileID: 11400000, guid: c1790263572c70247ac977eed5f18e40, type: 2}
+  - {fileID: 11400000, guid: d24578a087b52f042b24fe8c579de00b, type: 2}
+  - {fileID: 11400000, guid: fed800ad1c8f18d468101f8204e9a891, type: 2}
+  - {fileID: 11400000, guid: a3fad3159380c1b40a51db90883edb59, type: 2}
+  - {fileID: 11400000, guid: 4e24060638087a2438dbc4bf02c74685, type: 2}
+  - {fileID: 11400000, guid: b9d9e55332c2e4f49b9e93ab34c62773, type: 2}
+  - {fileID: 11400000, guid: d0b7e6eda4e182646b25b08b4da9a6e7, type: 2}
+  - {fileID: 11400000, guid: f1cf2e0ffb8c98441aaf5f15435676cd, type: 2}
+  - {fileID: 11400000, guid: 36a064f520baa66409fa2574bb91fdb3, type: 2}
+  - {fileID: 11400000, guid: 187bec2237ded394bae07ebdea6fdc76, type: 2}
+  - {fileID: 11400000, guid: 30bb589b45ae687428f07f26de56b82e, type: 2}
+  - {fileID: 11400000, guid: 4e3d1ef91a9164344bcff5e0fcb0fb0e, type: 2}
+  - {fileID: 11400000, guid: 98a02b724b16f5e45aeb75656309b91e, type: 2}
+  - {fileID: 11400000, guid: ac9e1a8c12ba3fe4ab13f776028ea5af, type: 2}
+  - {fileID: 11400000, guid: d0ac85f9aa29cde4f853698418ab7776, type: 2}
+  tags: []

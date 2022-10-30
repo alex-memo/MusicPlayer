@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fbe3a8cddbf87b46aac7980fe245270, type: 3}
+  m_Name: Fighting Demons
+  m_EditorClassIdentifier: 
+  AlbumName: Fighting Demons
+  Artist: Juice WRLD
+  AlbumCover: {fileID: 21300000, guid: 1f13361c69fc5cb4a99ede572531bc30, type: 3}
+  songs:
+  - {fileID: 11400000, guid: 6ecaa45b15350ed48ba43850ea173aa3, type: 2}
+  - {fileID: 11400000, guid: a798d500a4a917740a7de4a1da5bd2f4, type: 2}
+  - {fileID: 11400000, guid: 72d7f226a89e631499d2e6cb257bc90b, type: 2}
+  - {fileID: 11400000, guid: b8d903a70ba031d43813988b79fce44f, type: 2}
+  - {fileID: 11400000, guid: 90bb4feab774ba04499b9326b0f9c015, type: 2}
+  - {fileID: 11400000, guid: 26c18585d063da74aa4b57d63636278b, type: 2}
+  - {fileID: 11400000, guid: 8715bdf99ea1bef47b8bd30009c696f0, type: 2}
+  - {fileID: 11400000, guid: 72b6a3c96b0459342b704aa583d8d6f0, type: 2}
+  - {fileID: 11400000, guid: a0b1130bbef8a4040b390504824fe55c, type: 2}
+  - {fileID: 11400000, guid: 4cae2f3d284437a4c93aca9006c9cb03, type: 2}
+  - {fileID: 11400000, guid: fdd19eb72f3504a4e827ae963515d79c, type: 2}
+  - {fileID: 11400000, guid: 452f44193c8a94942a57f9126bff7432, type: 2}
+  - {fileID: 11400000, guid: 7d0df04986984414eab1cf0e16fa75c9, type: 2}
+  - {fileID: 11400000, guid: 98f48e9256f2a7d4d936bed74f215ffe, type: 2}
+  - {fileID: 11400000, guid: 3d28bef27bb880546884f197d7b5b789, type: 2}
+  - {fileID: 11400000, guid: d0ac85f9aa29cde4f853698418ab7776, type: 2}
+  - {fileID: 11400000, guid: 0ab2a49e9545df54f8e91cf0383a98a4, type: 2}
+  tags:
+  - Jucie wrld
+  - Depression
+  - Hype
+  - Polo G
+  - Tripiie Redd

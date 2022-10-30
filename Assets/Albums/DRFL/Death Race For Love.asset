@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fbe3a8cddbf87b46aac7980fe245270, type: 3}
+  m_Name: Death Race For Love
+  m_EditorClassIdentifier: 
+  AlbumName: Death Race For Love
+  Artist: Juice WRLD
+  AlbumCover: {fileID: 21300000, guid: 7ee5f042984c0134fbc2da97a05c4736, type: 3}
+  songs:
+  - {fileID: 11400000, guid: ca151066fa8a0ef438b881a3395cf6ca, type: 2}
+  - {fileID: 11400000, guid: 9a4d50fd4d545834ab86f25117a5d8c4, type: 2}
+  - {fileID: 11400000, guid: 491df5d3d16989b4c9a6301e4d3a468e, type: 2}
+  - {fileID: 11400000, guid: b893c4501f2ddbc4ebf956e27cefc2c1, type: 2}
+  - {fileID: 11400000, guid: 5810d59a5722e964c890a8c99502fbe3, type: 2}
+  - {fileID: 11400000, guid: f05c88172b3981b48a730bd1337d8a18, type: 2}
+  - {fileID: 11400000, guid: 0e627efdf86ed7d43a811383c66b94d3, type: 2}
+  - {fileID: 11400000, guid: f9332a36677e9a741b368850ec7d1d1e, type: 2}
+  - {fileID: 11400000, guid: 457cf726f8bc303499b8de69e5d8890d, type: 2}
+  - {fileID: 11400000, guid: 7cc816f39ea6d71498055548f5b7e1eb, type: 2}
+  - {fileID: 11400000, guid: 07a04f9ef65a72f41999a37223d69fc6, type: 2}
+  - {fileID: 11400000, guid: 3b668d53c8235f14a82c8b7887259695, type: 2}
+  - {fileID: 11400000, guid: 2547b980c89679e4995bf45abd78fe9f, type: 2}
+  - {fileID: 11400000, guid: b7218fe680142ff4d82d9892cc461342, type: 2}
+  - {fileID: 11400000, guid: d49beca42fe53044ab8deb097fc227a5, type: 2}
+  - {fileID: 11400000, guid: 8e298a08ed0afc24783e769bdae05d1f, type: 2}
+  - {fileID: 11400000, guid: d9602dcc350267843a3ab3b21cb71438, type: 2}
+  - {fileID: 11400000, guid: 8750fcfc7569fb046ac59a2765a5e25a, type: 2}
+  - {fileID: 11400000, guid: 734142d55b1629245866b5824f809d4b, type: 2}
+  - {fileID: 11400000, guid: 12d6436eae4397a4fa25fbd49af3b59d, type: 2}
+  - {fileID: 11400000, guid: c3611470f7ec03c46a295a3de7fb85f0, type: 2}
+  tags: []

@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fbe3a8cddbf87b46aac7980fe245270, type: 3}
+  m_Name: Goodbye & Good Ridance
+  m_EditorClassIdentifier: 
+  AlbumName: Goodbye & Good Ridance
+  Artist: Juice WRLD
+  AlbumCover: {fileID: 21300000, guid: c1673b862f7f63d45b7ea8d53825856e, type: 3}
+  songs:
+  - {fileID: 11400000, guid: 2f78b6192fd16144bb00668e0b187bae, type: 2}
+  - {fileID: 11400000, guid: db000aa1609686f488ba037f3a5d68c7, type: 2}
+  - {fileID: 11400000, guid: 6a166edfbf96deb4399831b0fcdcf964, type: 2}
+  - {fileID: 11400000, guid: 596e8c56f96bee3438c6d3a829a24c14, type: 2}
+  - {fileID: 11400000, guid: 09255b70701797f48ab494137d9b6f2b, type: 2}
+  - {fileID: 11400000, guid: 25599e6622b67834991bf83906f04ac2, type: 2}
+  - {fileID: 11400000, guid: 0b9a84f304c064b42aab83d538c96a03, type: 2}
+  - {fileID: 11400000, guid: ffe4cc752fdceec42b5ed1e602928106, type: 2}
+  - {fileID: 11400000, guid: b25cefb8c95b4154598572ab45c8a7f8, type: 2}
+  - {fileID: 11400000, guid: e3066e4713a49ce4d8119ccaf50cdedf, type: 2}
+  - {fileID: 11400000, guid: 289ef65c111ad1a4982d414631255db5, type: 2}
+  - {fileID: 11400000, guid: 54db39891fca06d45933023ee0a6bf47, type: 2}
+  tags: []

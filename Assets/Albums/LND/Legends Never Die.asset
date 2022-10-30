@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fbe3a8cddbf87b46aac7980fe245270, type: 3}
+  m_Name: Legends Never Die
+  m_EditorClassIdentifier: 
+  AlbumName: Legends Never Die
+  Artist: Juice WRLD
+  AlbumCover: {fileID: 21300000, guid: e4440308694821b479884319e19dbf99, type: 3}
+  songs:
+  - {fileID: 11400000, guid: c86a24a0637cf0443a6df821eb21f867, type: 2}
+  - {fileID: 11400000, guid: cf24edcf528793446a0a46fa11c38461, type: 2}
+  - {fileID: 11400000, guid: 69ae5fc410027ad4a883707722380aa3, type: 2}
+  - {fileID: 11400000, guid: ee3c194f96a34ff49882a6873c700b70, type: 2}
+  - {fileID: 11400000, guid: cf46e70f8ea8d1e4c9af23752372216b, type: 2}
+  - {fileID: 11400000, guid: 6bd7d2a5b80554145bcb353817dfc550, type: 2}
+  - {fileID: 11400000, guid: 1009d5fc33c98e448be388af259b4504, type: 2}
+  - {fileID: 11400000, guid: a7f7b0a2c9f64754cb789a82aa36781f, type: 2}
+  - {fileID: 11400000, guid: e125336bfc461744cabe71a2a1292dd2, type: 2}
+  - {fileID: 11400000, guid: cea607b1a13671b4a955b27e46052f05, type: 2}
+  - {fileID: 11400000, guid: e9931d57b3cc4b5429d38f2aaaa309fc, type: 2}
+  - {fileID: 11400000, guid: 1da65db17abbc7849ad46fc6697bb9ab, type: 2}
+  - {fileID: 11400000, guid: 628d4c9ae684d0a47a791fd747b66cf4, type: 2}
+  - {fileID: 11400000, guid: 52f5bd9c656998a4b96a2eab6220e454, type: 2}
+  - {fileID: 11400000, guid: 482ba8bce35b195478a05088c3096e5b, type: 2}
+  - {fileID: 11400000, guid: 1b54c7b88d6518b48979d0082e30aa89, type: 2}
+  - {fileID: 11400000, guid: 1beb008d7f190da41a435a0ad8cd1217, type: 2}
+  tags: []

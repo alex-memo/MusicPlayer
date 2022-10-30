@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9cb8c277c0ceaf84ba29933d694bb7c6, type: 3}
+  m_Name: The Bees Knees
+  m_EditorClassIdentifier: 
+  SongName: The Bees Knees
+  Artist: Juice WRLD
+  feauture: 
+  SongCover: {fileID: 0}
+  song: {fileID: 8300000, guid: b9026505332fbb6409674aa13b8d2544, type: 3}
+  tags: []

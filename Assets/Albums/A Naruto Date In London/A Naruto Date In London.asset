@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fbe3a8cddbf87b46aac7980fe245270, type: 3}
+  m_Name: A Naruto Date In London
+  m_EditorClassIdentifier: 
+  AlbumName: A Naruto Date In London
+  Artist: Juice WRLD
+  AlbumCover: {fileID: 21300000, guid: f38762c5041df4b46b738615a7c3da8b, type: 3}
+  songs:
+  - {fileID: 11400000, guid: e1ce63f51a110a54a80d35d74345ac46, type: 2}
+  - {fileID: 11400000, guid: fe3233ca99264ee4fb8b6689700a371f, type: 2}
+  - {fileID: 11400000, guid: 4b8efbdd1f5716e4e8cf1fa4c3c4cbb8, type: 2}
+  - {fileID: 11400000, guid: bef2395086cdaed46ae6474f858db343, type: 2}
+  - {fileID: 11400000, guid: 21d09c4e074a65149ba57a228e17a549, type: 2}
+  - {fileID: 11400000, guid: f827928eb0496df4d88473d55c158234, type: 2}
+  - {fileID: 11400000, guid: efe1d1fa2bffa644f82eb7791510cd31, type: 2}
+  - {fileID: 11400000, guid: d713eb5c9e79fe2428898dc9e46dbfcb, type: 2}
+  - {fileID: 11400000, guid: 41c8488c5c8816b4c8a4e84c8d4d759f, type: 2}
+  - {fileID: 11400000, guid: 3a02623771a036840821455342640307, type: 2}
+  - {fileID: 11400000, guid: 3055327c337fe5a4b86758daafe47e15, type: 2}
+  - {fileID: 11400000, guid: 98a02b724b16f5e45aeb75656309b91e, type: 2}
+  - {fileID: 11400000, guid: c1f4cb09e2ade80498c4cf42e6e9d8e8, type: 2}
+  - {fileID: 11400000, guid: 373b0210c4639564d953650ffd6974c1, type: 2}
+  - {fileID: 11400000, guid: 3cd97645e96cd2d41b1c5d2f7261e04d, type: 2}
+  - {fileID: 11400000, guid: 6df7db0c6ae2cdc44a1f908277196037, type: 2}
+  - {fileID: 11400000, guid: ac9e1a8c12ba3fe4ab13f776028ea5af, type: 2}
+  - {fileID: 11400000, guid: edcdcc0f07cceac42b17b61ce168f87d, type: 2}
+  - {fileID: 11400000, guid: 3653dbab08a4ea24aa348905ab35ec66, type: 2}
+  - {fileID: 11400000, guid: 2ddaf42ca3ce6804180fb273563c69cb, type: 2}
+  - {fileID: 11400000, guid: e378ed61f90692b44aae16a8a893105e, type: 2}
+  - {fileID: 11400000, guid: 907de7d0d22371e4baf8a6e0e6ca7774, type: 2}
+  - {fileID: 11400000, guid: 7e4ee1715b2969b4eb6cd02d6805eeff, type: 2}
+  - {fileID: 11400000, guid: 938dd20d2a3eb7a44854b4bda8a9ca80, type: 2}
+  tags: []

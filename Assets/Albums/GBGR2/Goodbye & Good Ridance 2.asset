@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fbe3a8cddbf87b46aac7980fe245270, type: 3}
+  m_Name: Goodbye & Good Ridance 2
+  m_EditorClassIdentifier: 
+  AlbumName: Goodbye & Good Ridance II
+  Artist: Juice WRLD
+  AlbumCover: {fileID: 21300000, guid: a948cb1e8a9a57f4a869a00e642576fc, type: 3}
+  songs:
+  - {fileID: 11400000, guid: d03ac826eab961143af48499193d121e, type: 2}
+  - {fileID: 11400000, guid: e02f657b4004e3e4485de4bc935dc6f4, type: 2}
+  - {fileID: 11400000, guid: cb8f891d2010876488ca90ab6bb47c44, type: 2}
+  - {fileID: 11400000, guid: d25d5581b733f0449baf7baff0de9710, type: 2}
+  - {fileID: 11400000, guid: 54f40d73e80e1b14196a726d738234ba, type: 2}
+  - {fileID: 11400000, guid: d8a24e90dfda9ab4e87a100ba68456ef, type: 2}
+  - {fileID: 11400000, guid: 588f71f083e2f9846b4bb066c6c260ed, type: 2}
+  - {fileID: 11400000, guid: 7b1187c9c5b4f934eb9e79861ec42d19, type: 2}
+  - {fileID: 11400000, guid: 7ec17dc4f516d6e41a3a39236988f695, type: 2}
+  - {fileID: 11400000, guid: cb10b10bde5e7284bb91f832dc24926b, type: 2}
+  - {fileID: 11400000, guid: ef74186c048293445bd5b874604a61f5, type: 2}
+  - {fileID: 11400000, guid: 956021a5c421fcd438bc8ff5df983c22, type: 2}
+  - {fileID: 11400000, guid: 589da6fea0dcf32429945393cb3fe90f, type: 2}
+  - {fileID: 11400000, guid: aaa29e8ff115e8c48943830812c04df3, type: 2}
+  - {fileID: 11400000, guid: 4bd78fb197a3a204f8fd8eb7ad988b73, type: 2}
+  - {fileID: 11400000, guid: 940c1d19449e5a84497bacf0bc507f31, type: 2}
+  - {fileID: 11400000, guid: 34946a8a170c9284eaf22386f872ec73, type: 2}
+  - {fileID: 11400000, guid: 71d7504c58e0027439967e5771d7d857, type: 2}
+  - {fileID: 11400000, guid: 644a3563010240f45b96c1a47113a60e, type: 2}
+  - {fileID: 11400000, guid: 74b41f4badf7b3b45aa4c129e2545de0, type: 2}
+  - {fileID: 11400000, guid: c86ab387007aa9d4a9ebd950dc94f2ef, type: 2}
+  - {fileID: 11400000, guid: 5b05bbc6c3e01c047a694ded48068a83, type: 2}
+  - {fileID: 11400000, guid: 124f8e0bd8bc7be449861c62d0e6299c, type: 2}
+  - {fileID: 11400000, guid: 973eeeff29a13c34a92d20e86a8e2281, type: 2}
+  - {fileID: 11400000, guid: e6a9c1d9bb55a454688c91eed56c8cab, type: 2}
+  - {fileID: 11400000, guid: 856f8788fe26ee74d87b4a0799244da2, type: 2}
+  - {fileID: 11400000, guid: 4e7c808e13b74f0479ee04f6f2597c12, type: 2}
+  - {fileID: 11400000, guid: 70fcf6b0844cf28458fa1619d42fd6a6, type: 2}
+  - {fileID: 11400000, guid: a837f7203a2380245bc5a8190ae40dc3, type: 2}
+  - {fileID: 11400000, guid: 70163edf48bcb674d99ced2461eeba54, type: 2}
+  - {fileID: 11400000, guid: 2688ee66251547e43953ad393f3fb348, type: 2}
+  - {fileID: 11400000, guid: 4a00d1c54f5e7a643afb2269b03f15e3, type: 2}
+  tags: []

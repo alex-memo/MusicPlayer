@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fbe3a8cddbf87b46aac7980fe245270, type: 3}
+  m_Name: 999EP
+  m_EditorClassIdentifier: 
+  AlbumName: 999EP
+  Artist: Juice WRLD
+  AlbumCover: {fileID: 21300000, guid: 99edc928feb84584aabcd20b2141c91d, type: 3}
+  songs:
+  - {fileID: 11400000, guid: 0276f531b9fa7004abc6374fc4e8928d, type: 2}
+  - {fileID: 11400000, guid: db000aa1609686f488ba037f3a5d68c7, type: 2}
+  - {fileID: 11400000, guid: 909330cdda14e6e468e449c7fa062f37, type: 2}
+  - {fileID: 11400000, guid: 64a3dcb93f1d15a4fbeacbcc8002ae4e, type: 2}
+  - {fileID: 11400000, guid: 4c1490f31d4062a42bfeca957d01b8fa, type: 2}
+  - {fileID: 11400000, guid: 5ccfd4d0043627a43a64e7819e5f79b4, type: 2}
+  - {fileID: 11400000, guid: 1e6dd4f4ce421214dbb7caaa30d70ff3, type: 2}
+  - {fileID: 11400000, guid: 71b17b7d86e31154b8d4ef0d531638d9, type: 2}
+  tags: []
