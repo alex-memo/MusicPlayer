@@ -3,9 +3,16 @@ using System.Collections.Generic;
 using UnityEngine;
 using System.IO;
 using System.Runtime.Serialization.Formatters.Binary;
-
+/**
+* @memo 2022
+* save system script
+*/
 public class SaveSystem
 {
+    /**
+* @memo 2022
+* saves data in file
+*/
     public static void SavePlayer(MainController Controller)
     {
         BinaryFormatter formatter = new BinaryFormatter();
@@ -16,6 +23,10 @@ public class SaveSystem
         formatter.Serialize(stream, data);
         stream.Close();
     }
+    /**
+* @memo 2022
+* loads data from file
+*/
     public static SaveData loadPlayer()
     {
         string path = Application.persistentDataPath + "/save.mpim";

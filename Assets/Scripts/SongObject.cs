@@ -2,6 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 [CreateAssetMenu(fileName = "New Song", menuName = "Create Song")]
+/**
+* @memo 2022
+* song scriptable object
+*/
 public class SongObject : ScriptableObject
 {
     public string SongName;

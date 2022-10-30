@@ -2,10 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
+/**
+* @memo 2022
+* Main controller for the whole program, essencially sticks the whole thing together
+*/
 public class MainController : MonoBehaviour
 {
     #region InstanceRegion
+    /**
+ * @memo 2022
+ * Creates an instance from this 
+ */
     public static MainController Instance;
     private void Awake()
     {
@@ -65,7 +72,10 @@ public class MainController : MonoBehaviour
 
     public GameObject searchPage;
 
-
+    /**
+ * @memo 2022
+ * start method, sets everything such as volume and some variables
+ */
     private void Start()
     {
         
@@ -81,6 +91,10 @@ public class MainController : MonoBehaviour
         CreateFavouriteSongs();
         
     }
+    /**
+ * @memo 2022
+ * loads fata from save file
+ */
     private void LoadData()
     {
         saveData.SaveValues(GetAllSongs());
@@ -99,7 +113,10 @@ public class MainController : MonoBehaviour
 
 
 
-
+    /**
+ * @memo 2022
+ * if audio finished then do this
+ */
     private void audioFinished()
     {
         Debug.Log("audio finished");
@@ -167,11 +184,15 @@ public class MainController : MonoBehaviour
             
         }
     }
-   
+
 
 
 
     #region buttons
+    /**
+ * @memo 2022
+ * on user change to discover
+ */
     public void changetoDiscover()
     {
         MusicPlayerView.SetActive(false);
@@ -183,6 +204,10 @@ public class MainController : MonoBehaviour
         Application.targetFrameRate = 60;
         DiscoverPage.SetActive(true);
     }
+    /**
+* @memo 2022
+* Changes to player view
+*/
     public void changetoPlayerView()
     {
         AlbumSongsPage.SetActive(false);
@@ -197,6 +222,10 @@ public class MainController : MonoBehaviour
         MusicPlayerView.SetActive(true);
         StartCoroutine(updateTimer());
     }
+    /**
+* @memo 2022
+* changes to album view
+*/
     public void changetoAlbumView(AlbumObject album)
     {
         MusicPlayerView.SetActive(false);
@@ -243,6 +272,10 @@ public class MainController : MonoBehaviour
         }
         Application.targetFrameRate = 60;
     }
+    /**
+* @memo 2022
+* changes to search view
+*/
     public void ChangeToSearch()
     {
         AlbumSongsPage.SetActive(false);
@@ -252,6 +285,10 @@ public class MainController : MonoBehaviour
         searchPage.SetActive(true);
 
     }
+    /**
+* @memo 2022
+* pause play handler metod
+*/
     public void pausePlay()
     {
         if (musicPlayer.isPlaying)
@@ -271,6 +308,10 @@ public class MainController : MonoBehaviour
         PlayerViewScript.setPlayPause(isPlay);
 
     }
+    /**
+* @memo 2022
+* skip song button handler
+*/
     public void skipSong()
     {
         Debug.Log(musicCount);
@@ -287,6 +328,10 @@ public class MainController : MonoBehaviour
             playSong(GetRandomSong(selectedAlbum),selectedAlbum);
         }
     }
+    /**
+* @memo 2022
+* previous song button handler
+*/
     public void previousSong()
     {
         if (musicCount > 0)
@@ -305,6 +350,10 @@ public class MainController : MonoBehaviour
             SaveSystem.SavePlayer(this);
         }
     }
+    /**
+* @memo 2022
+* toogle shuffle button handler
+*/
     public void toggleShuffle()
     {
         if (isShuffle)
@@ -318,10 +367,18 @@ public class MainController : MonoBehaviour
             ShuffleImage.color=Color.black;
         }
     }
+    /**
+* @memo 2022
+* volume slider handler
+*/
     public void VolumeSlider(float sliderValue)
     {
         musicPlayer.volume = sliderValue;
     }
+    /**
+* @memo 2022
+* updates the song time 
+*/
     public void userUpdateSongTime(float sliderValue)
     {
         musicPlayer.time = sliderValue;
@@ -330,6 +387,10 @@ public class MainController : MonoBehaviour
     }
     #endregion
     #region utility
+    /**
+* @memo 2022
+* deletes the page songs
+*/
     private void DeletePageSongs()
     {
         foreach (Transform child in SongsPageSongsHolder.transform)
@@ -342,6 +403,10 @@ public class MainController : MonoBehaviour
         }
 
     }
+    /**
+* @memo 2022
+* get the song position in an album
+*/
     private int getSongPosOnAlbum(SongObject song, AlbumObject album)
     {
         if(album == null)//song not existent on album
@@ -359,10 +424,18 @@ public class MainController : MonoBehaviour
         }
         return -1;//song not existent on album
     }
+    /**
+* @memo 2022
+* getter the volume
+*/
     public float getVolume()
     {
         return volume;
     }
+    /**
+* @memo 2022
+* plays the desired song
+*/
     public void playSong(SongObject song, AlbumObject selectAlbum)
     {
         musicPlayer.clip = song.song;
@@ -381,6 +454,10 @@ public class MainController : MonoBehaviour
         saveData.addPlayed(CurrentlyPlayingScript.song);
         SaveSystem.SavePlayer(this);
     }
+    /**
+* @memo 2022
+* plays the next song in queue
+*/
     private void playNextSongInQueue()
     {
         musicPlayer.clip = playedMusic[musicCount + 1].song;
@@ -396,6 +473,10 @@ public class MainController : MonoBehaviour
         saveData.addPlayed(CurrentlyPlayingScript.song);
         SaveSystem.SavePlayer(this);
     }
+    /**
+* @memo 2022
+* gets a song in a random position
+*/
     private int GetRandomSongPosition(AlbumObject album)//gets a random song position in an album
     {
         float rand = Random.Range(0, album.songs.Length);
@@ -403,6 +484,10 @@ public class MainController : MonoBehaviour
         int r = (int)rand;
         return r;
     }
+    /**
+* @memo 2022
+* gets new album from all the albyums in the list
+*/
     private int GetNewAlbum()//Gets a random album position from all the album list
     {
         float rand = Random.Range(0, Albums.Length);
@@ -410,6 +495,10 @@ public class MainController : MonoBehaviour
         int r = (int)rand;
         return r;
     }
+    /**
+* @memo 2022
+* gats an album from the same artist as the lat one played
+*/
     private AlbumObject getSameArtistAlbum(AlbumObject referenceAlbum)
     {
         int i = 0;
@@ -423,6 +512,10 @@ public class MainController : MonoBehaviour
         }
         return null;//means there where no albums with that artist found
     }
+    /**
+* @memo 2022
+* gets a random song from an album if received album, if not received album then returns a random song from everything
+*/
     private SongObject GetRandomSong(AlbumObject album)
     {
         
@@ -439,10 +532,18 @@ public class MainController : MonoBehaviour
             return album.songs[rand];
         }
     }
+    /**
+* @memo 2022
+* sets the timer slider ui for the user
+*/
     public void SongTimerTick()
     {
         SongTimeSlider.value = musicPlayer.time;
     }
+    /**
+* @memo 2022
+* updates the timer only when on the music player view, this prevents the whole code from having a single update metod
+*/
     private IEnumerator updateTimer()
     {
         while (MusicPlayerView.gameObject.activeSelf)
@@ -452,6 +553,10 @@ public class MainController : MonoBehaviour
         }
         print("ended coroutine");
     }
+    /**
+* @memo 2022
+* gets the songs ids
+*/
     private void SetSongIDS()
     {
         //List<SongObject> songListNoID = new List<SongObject>();
@@ -555,6 +660,10 @@ public class MainController : MonoBehaviour
         noSongs = id - 1;
         **/
     }
+    /**
+* @memo 2022
+* resets all songs id, this for testing puposes
+*/
     private void ResetSongIDs()
     {
         int i = 0;
@@ -569,6 +678,10 @@ public class MainController : MonoBehaviour
             i++;
         }
     }
+    /**
+* @memo 2022
+* gets all songs
+*/
     public SongObject[] GetAllSongs()
     { 
         SongObject[] songs = new SongObject[allSongs.Count];
@@ -581,16 +694,28 @@ public class MainController : MonoBehaviour
         
         return songs;
     }
+    /**
+* @memo 2022
+* getter fort isShuffle
+*/
     public bool getShuffle()
     {
         return isShuffle;
     }
+    /**
+* @memo 2022
+* getter for getSaveData
+*/
     public playerSaveData getSaveData()
     {
         return saveData;
     }
     #endregion
     #region fyp
+    /**
+* @memo 2022
+* Creates albums at the start on fyp
+*/
     private void CreateAlbumsStart()
     {
         AlbumObject[] gottenAlbums = new AlbumObject[DiscoverAlbumsTransform.childCount];
@@ -635,6 +760,10 @@ public class MainController : MonoBehaviour
         }
         //DiscoverAlbums = gottenAlbums;
     }
+    /**
+* @memo 2022
+* Creates songs at the start on fyp
+*/
     private void CreateSongsStart()
     {
         SongObject[] gottenSongs = new SongObject[DiscoverSongsTransform.childCount];
@@ -680,7 +809,11 @@ public class MainController : MonoBehaviour
             i++;
         }
         //DiscoverSongs = gottenSongs;
-    } 
+    }
+    /**
+* @memo 2022
+* Creates the favourite songs on fyp
+*/
     private void CreateFavouriteSongs()
     {
         int i = 0;

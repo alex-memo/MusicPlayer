@@ -2,7 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
+/**
+* @memo 2022
+* Script to handle the content inside of a song object
+*/
 public class SongContentScript : MonoBehaviour
 {
     public Text SongNameText;
@@ -10,6 +13,10 @@ public class SongContentScript : MonoBehaviour
     public Image SongCover;
     public SongObject song;
     public AlbumObject thisAlbum;
+    /**
+* @memo 2022
+* sets song in this object
+*/
     public void SetSong(SongObject song, AlbumObject album)
     {
         SongNameText.text = song.SongName;
@@ -30,10 +37,18 @@ public class SongContentScript : MonoBehaviour
         }
         this.song = song;
     }
+    /**
+* @memo 2022
+* plays the song in this object
+*/
     public void PlaySong()
     {
         MainController.Instance.playSong(song,thisAlbum);
     }
+    /**
+* @memo 2022
+* destroys this object
+*/
     public void DestroySongObj()
     {
         Destroy(this.gameObject);

@@ -2,6 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+/**
+ * @memo 2022
+ * Handles currently playing song
+ */
 
 public class CurrentlyPlayingScript : MonoBehaviour
 {
@@ -17,6 +21,10 @@ public class CurrentlyPlayingScript : MonoBehaviour
     Color sn;
     Color ar;
     Color co;
+    /**
+ * @memo 2022
+ * start method
+ */
     private void Start()
     {
         pa = Panel.color;
@@ -24,6 +32,10 @@ public class CurrentlyPlayingScript : MonoBehaviour
         ar = artist.color;
         co = cover.color;
     }
+    /**
+ * @memo 2022
+ * sets the selected song to the current playing song
+ */
     public void setCurrentPlaying(SongObject song, AlbumObject album)
     {
         //this.album = album;
@@ -34,11 +46,19 @@ public class CurrentlyPlayingScript : MonoBehaviour
         this.gameObject.SetActive(true);
         
     }
+    /**
+ * @memo 2022
+ * if no music is playing then 
+ */
     public void noMusicPlaying()
     {
         this.gameObject.SetActive(false);
         //StartCoroutine(fadeAway());
     }
+    /**
+ * @memo 2022
+ * fades away the bar below
+ */
     private IEnumerator fadeAway()
     {
         
